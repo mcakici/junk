@@ -34,7 +34,7 @@ class Users {
     }
 
     public function userid() {
-        //$this->send_mail("streamerslab@gmail.com","Bay streamers","Selam naber","iyimisin brother.");
+        //$this->send_mail("asdf@gmail.com","Bay streamers","Selam naber","iyimisin brother.");
         return $this->db->query("SELECT * FROM users WHERE username = ?", 1)->fetchAll();
     }
 
